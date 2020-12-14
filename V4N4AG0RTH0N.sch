@@ -2008,11 +2008,11 @@ Wire Wire Line
 	1450 7050 1700 7050
 Wire Wire Line
 	1900 7050 2250 7050
-Text GLabel 3200 4400 2    50   Input ~ 0
+Text GLabel 3200 2400 2    50   Input ~ 0
 LED_1
-Text GLabel 3200 4500 2    50   Input ~ 0
+Text GLabel 3200 3900 2    50   Input ~ 0
 LED_2
-Text GLabel 3200 4600 2    50   Input ~ 0
+Text GLabel 3200 3800 2    50   Input ~ 0
 LED_3
 $Comp
 L Type-C:HRO-TYPE-C-31-M-12 USB1
@@ -2206,4 +2206,38 @@ $EndComp
 Wire Wire Line
 	7050 7550 7050 7650
 Connection ~ 7050 7550
+Text GLabel 3200 2500 2    50   Input ~ 0
+ROW3
+Text GLabel 3200 2600 2    50   Input ~ 0
+ROW2
+Text GLabel 3200 2900 2    50   Input ~ 0
+ROW1
+Text GLabel 3200 3000 2    50   Input ~ 0
+ROW0
+Text GLabel 3200 2700 2    50   Input ~ 0
+ROW4
+Text GLabel 3200 3200 2    50   Input ~ 0
+COL3
+Text GLabel 3200 3300 2    50   Input ~ 0
+COL2
+Text GLabel 3200 3400 2    50   Input ~ 0
+COL1
+Text GLabel 3200 3500 2    50   Input ~ 0
+COL0
+Text GLabel 3200 3700 2    50   Input ~ 0
+COL4
+Text GLabel 3200 4900 2    50   Input ~ 0
+COL5
+Text GLabel 3200 4800 2    50   Input ~ 0
+COL6
+Text GLabel 3200 4700 2    50   Input ~ 0
+COL7
+Text GLabel 3200 4500 2    50   Input ~ 0
+COL9
+Text GLabel 3200 4400 2    50   Input ~ 0
+COL10
+Text GLabel 3200 4200 2    50   Input ~ 0
+COL11
+Text GLabel 3200 4600 2    50   Input ~ 0
+COL8
 $EndSCHEMATC
