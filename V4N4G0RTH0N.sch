@@ -2065,7 +2065,7 @@ Text GLabel 3200 4600 2    50   Input ~ 0
 COL9
 Text GLabel 3200 4500 2    50   Input ~ 0
 COL10
-Text GLabel 3200 4400 2    50   Input ~ 0
+Text GLabel 3200 2000 2    50   Input ~ 0
 COL11
 Text GLabel 3200 4700 2    50   Input ~ 0
 COL8
@@ -2350,4 +2350,51 @@ Wire Wire Line
 Wire Wire Line
 	4250 7900 4400 7900
 Connection ~ 4250 7900
+$Comp
+L Device:R_Potentiometer RV1
+U 1 1 6051941E
+P 1300 5500
+F 0 "RV1" V 1093 5500 50  0000 C CNN
+F 1 "R_Potentiometer" V 1184 5500 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTA3043_Single_Slide" H 1300 5500 50  0001 C CNN
+F 3 "~" H 1300 5500 50  0001 C CNN
+	1    1300 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 6051C5EA
+P 1600 5550
+F 0 "#PWR0126" H 1600 5300 50  0001 C CNN
+F 1 "GND" H 1605 5377 50  0000 C CNN
+F 2 "" H 1600 5550 50  0001 C CNN
+F 3 "" H 1600 5550 50  0001 C CNN
+	1    1600 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5500 1600 5500
+Wire Wire Line
+	1600 5500 1600 5550
+$Comp
+L power:+5V #PWR0127
+U 1 1 6053121A
+P 900 5500
+F 0 "#PWR0127" H 900 5350 50  0001 C CNN
+F 1 "+5V" H 915 5673 50  0000 C CNN
+F 2 "" H 900 5500 50  0001 C CNN
+F 3 "" H 900 5500 50  0001 C CNN
+	1    900  5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5500 900  5500
+Text GLabel 1200 5750 0    50   Input ~ 0
+ANAL_IN
+Wire Wire Line
+	1200 5750 1300 5750
+Wire Wire Line
+	1300 5750 1300 5650
+Text GLabel 3200 4400 2    50   Input ~ 0
+ANAL_IN
 $EndSCHEMATC

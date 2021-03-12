@@ -1,4 +1,4 @@
-20116536502220301
+20124603214354598
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -7789,6 +7789,13 @@ STX Series, 4 pole male chassis connector, metal housing, vertical PCB mount,  s
 neutrik speakon stx
 0
 4
+4
+Connector_Audio
+MJ-4PP-9
+
+
+0
+8
 4
 Connector_Audio
 MiniXLR-5_Switchcraft_TRAPC_Horizontal
@@ -56623,6 +56630,13 @@ ArduinoProMicro-Mini-USB-ZigZag
 24
 24
 Keybage_Hardware
+ArduinoProMicro-Reversible
+
+
+0
+48
+24
+Keybage_Hardware
 ArduinoProMicro-TopSide
 
 
@@ -56713,6 +56727,13 @@ Keybage Logo Text, silkscreen
 0
 0
 0
+Keybage_MX
+MX-NoLED-Reversible
+
+
+0
+4
+2
 Keybage_MX
 MX_1.5u
 
@@ -87583,3 +87604,17 @@ breakaway-mousebites
 0
 0
 0
+s8erdude-keyboard-parts
+D_SOD123_thruhole
+
+
+0
+2
+2
+s8erdude-keyboard-parts
+TRIM_PTA3043-2010CIA503
+
+
+0
+7
+7
