@@ -1,1 +1,4 @@
+assembly/
 .DS_Store
+*.zip
+gerbers/
